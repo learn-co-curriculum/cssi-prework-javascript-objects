@@ -1,6 +1,4 @@
 # JavaScript Objects
-So what is an Object in Javascript?
-
 JavaScript is an object oriented programming language. Everything can be described by objects, which bundle properties with methods and events that impact those objects.
 
 An object is a list of associated data pairs. Unlike arrays, objects do not have numbered indexes. Instead they contain key names and associated values. Where a numbered grocery list is a good metaphor for an array, a birthday list including a person’s name (key) and their birthday month value) would be a better metaphor for an object.
@@ -54,7 +52,7 @@ Using this representation of person, every person object in JavaScript will have
 
 Let's fill out the profile of our `person object` to match the information in the object table above:
 
-      ```javascript
+```javascript
       var person = {
         firstName: "Jane",
         surname: "Doe",
@@ -64,17 +62,19 @@ Let's fill out the profile of our `person object` to match the information in th
          return "Hello, my name is "+ this.firstName;
          }
         }
-      ```
+```
 
-      To access the value inside our person object, you can use dot notation or index the object using the key for the property you want.
-      ```javascript
-      person.firstName
-      Jane
-      person["age"]
-      24
-      ```
-      To use a method within the object, just use dot notation.
-      ```javascript
-      person.talk()
-      "Hello, my name is Jane"
-      ```
+To access the value inside our person object, you can use dot notation or index the object using the key for the property you want.
+
+```javascript
+>person.firstName
+Jane
+>person["age"]
+24
+```
+
+To use a method within the object, just use dot notation.
+```javascript
+>person.talk()
+"Hello, my name is Jane"
+```
