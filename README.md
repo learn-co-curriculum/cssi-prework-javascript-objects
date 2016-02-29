@@ -13,6 +13,13 @@ var monster = {fur: "blue", eyes: 4, claws: true, emotions : ["confused", "happy
 
 ```
 
+##Objectives
+* Object Syntax
+* Accessing Object Properties
+* Object Literals vs Object Constructors
+* Methods in Objects
+* JSON Introduction
+
 
 ##Object Syntax
 Notice that objects start with a pair of curly brackets. Each key and value pair is separated by a colon. `apple` is the key, and the associated value is `red`.
@@ -44,7 +51,7 @@ You can also reassign values.
 Finally, you can use Object.keys() to list all of the keys in an object.
 `Object.keys(fruitColors)`
 
-##Object Literals vs Constructors
+##Object Literals vs Object Constructors
 
 In the previous examples, we wrote our objects (monster and fruitColors) out all at once. This type of syntax is called an object literal. In object literals, the property keys and values are defined as the same time that the  object is created. Below we create just one pizza.
 
@@ -76,7 +83,7 @@ We can make as many pizzas as we want and the pizza() constructor will create a 
 >pizza2.finalPrice
 12.75
 ```
-## Methods in JavaScript Objects
+## Methods in Objects
 The final powerful component of objects are their ability to store methods as properties.
 When we describe our friends, we might describe their characteristics, but also the things that they do.
 
@@ -110,9 +117,8 @@ To use a method within the object, just use dot notation.
 >person.talk()
 "Hello, my name is Jane"
 ```
-##JSON
+##JSON Introduction
 Later in the prework you will learn more about JSON, which stands for JavaScript Object Notation. JSON takes advantage of both the organized way that objects store large collections of data and the ease of accessing that data. For these reasons, JSON is a popular way to store and send large amounts of data.
 
 ##Conclusion
-
 Objects are the holy grail of JavaScript. Objects can store a lot of different types of information in an organized, modular way. Objects are what give JavaScript it's flexibility and power.
