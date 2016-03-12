@@ -29,7 +29,7 @@ var fruitColors = { "apple" : "red", "tangerine": "orange", "banana": "yellow"}
 ```
 
 ##Accessing Properties
-Because objects are stored in key-value pairs and don't have an order. So instead of indexing with numbers, you can find a value by indexing using the key.
+Objects are stored in key-value pairs and don't have an order. So instead of indexing with numbers, you can find a value by indexing using the key.
 ```
 > fruitColors["apple"]
 red
