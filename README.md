@@ -1,4 +1,12 @@
 # JavaScript Objects
+
+## Objectives
+* Identify and use proper JavaScript Object Syntax
+* Access Object Properties using square bracket notation
+* Explain the difference between, and use, Object Literals and Object Constructors
+* Create and Use methods in objects
+* Get a general overview of JavaScript Object Notation (JSON)
+
 Up to this point we've learned about arrays, which were described as buckets that can store multiple variables of mixed data types. Arrays are ordered lists, and can be accessed with a numeric index.
 
 ```js
@@ -12,14 +20,6 @@ In fact, because an array is a collection of elements, arrays are actually simpl
 var monster = {fur: "blue", eyes: 4, claws: true, emotions : ["confused", "happy", "peaceful"] }
 
 ```
-
-##Objectives
-* Object Syntax
-* Accessing Object Properties
-* Object Literals vs Object Constructors
-* Methods in Objects
-* JSON Introduction
-
 
 ##Object Syntax
 Notice that objects start with a pair of curly brackets. Each key and value pair is separated by a colon. `apple` is the key, and the associated value is `red`.
